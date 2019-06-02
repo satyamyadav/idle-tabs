@@ -1,0 +1,44 @@
+{
+  "name": "idle-tabs",
+  "description": "A utility module for tracking user activity on different tabs of same website, with keepalive event, can be used for maintaining sessions where there is token based authentication to preserve or notify users.",
+  "version": "1.0.0",
+  "main": "./lib/idleTabs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open --config ./example/webpack.config.js",
+    "build:example": "webpack --config ./example/webpack.config.js -p",
+    "lint": "npx eslint ./src"
+  },
+  "keywords": [
+    "idle",
+    "session",
+    "keepalive",
+    "token",
+    "timeout"
+  ],
+  "homepage": "https://github.com/satyamyadav/idle-tabs/blob/master/README.md",
+  "author": {
+    "name": "Satyam Yadav",
+    "email": "satyamyadav3@gmail.com",
+    "url": "http://satyamyadav.info"
+  },
+  "bugs": {
+    "url": "https://github.com/satyamyadav/idle-tabs/issues",
+    "email": "satyamyadav3@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satyamyadav/idle-tabs.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}
